@@ -1,0 +1,74 @@
+body
+{
+	background-image: url("9.jpg");
+	background-size: 100% 100%;
+}
+
+.box
+{
+	background-color: lightblue;
+	width: 700px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin: 20px;
+	margin-bottom: 150px;
+}
+
+p1
+{
+	color: black;
+	font-size: 30px;
+	font-family: "Gill Sans", "Century Gothic","Times New Roman";
+}
+
+.link1
+{
+	float: left;
+	background-color: lightblue;
+	width: 100px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin-left: 135px;
+}
+
+.link2
+{
+	float: left;
+	background-color: lightblue;
+	width: 150px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin-left: 110px;
+}
+
+.link3
+{
+	float: left;
+	background-color: lightblue;
+	width: 100px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin-left: 110px;
+}
+
+.link4
+{
+	float: left;
+	background-color: lightblue;
+	width: 100px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin-left: 135px;
+}
+
+
+
+.link5
+{
+	background-color: lightblue;
+	width: 150px;
+	border: 15px solid blue;
+	padding: 20px;
+	margin: 20px;
+	margin-top: 150px;
+}
