@@ -1,0 +1,85 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="feedbackelement.css">
+<script>
+
+var date = new Date();
+
+document.write(date);
+
+
+</script>
+
+
+</head>
+<body>
+	<br><div class="link1"><a href='index.html'>BACK TO MAIN PAGE</a></div></br>
+	<h><center>FEEDBACK</center></h>
+
+	<p><center>
+	<form name="Form" method="post" onsubmit="Thanks()">
+	Name:<br><br>
+		<input type="text" name="Name"><br>
+	<br>Gender:<br><br>
+		<input type="radio" name="Gender" value="Male">Male
+		<input type="radio" name="Gender" value="Female">Female<br>
+	<br>Age:<br><br>
+		<select name="age">
+			<option value="0-5">0-5 years old
+			<option value="6-10">6-10 years old
+			<option value="11-15">11-15 years old
+			<option value="16-20">16-20 years old
+			<option value="21-25">21-25 years old
+			<option value="26-30">26-30 years old
+			<option value="31-35">31-35 years old
+			<option value="36-40">36-40 years old
+			<option value="41-45">41-45 years old
+			<option value="46-50">46-50 years old
+			<option value="51-55">51-55 years old
+			<option value="56-60">56-60 years old
+			<option value="61-65">61-65 years old
+			<option value="66-70">66-70 years old
+			<option value="71-75">71-75 years old
+			<option value="76-80">76-80 years old
+			<option value="81-85">81-85 years old
+			<option value="86-90">86-90 years old
+			<option value="91-95">91-95 years old
+			<option value="96-100">96-100 years old
+		</select><br>
+		
+	<br>Favourite Game Genre:<br><br> 
+    		<input type="checkbox" name="Sand">Sandbox
+		<input type="checkbox" name="RTS">Real-time Strategy(RTS)
+		<input type="checkbox" name="MOBA">Multiplayer online battle arena(MOBA)
+		<input type="checkbox" name="RPG">Role-playing(RPG & More)<br>
+		<input type="checkbox" name="Sim">Simulation
+		<input type="checkbox" name="Sport">Sport
+		<input type="checkbox" name="Puzzle">Puzzlers
+		<input type="checkbox" name="Party">Party Game
+		<input type="checkbox" name="ActionA">Action-adventure
+		<input type="checkbox" name="Survive">Survival
+		<input type="checkbox" name="Horror">Horror
+		<input type="checkbox" name="Platform">Platformer
+		<input type="checkbox" name="Shoot">Shooters(FPS & TPS) <br>
+
+	<br>Feedback:<br><br>
+		<textarea name="vision" rows="4" cols="40"></textarea><br>
+	<p>
+	
+	<input type="submit" name="submit" value="Submit">
+	<input type="reset" name="reset" value="Reset">
+
+	</center></p></form>
+
+<script>
+	function Thanks() 
+	{
+  		alert("Thanks for giving your feedback");
+	}
+</script>
+
+<br><div class="link1"><a href='index.html'>BACK TO MAIN PAGE</a></div></br>
+<center><div class="link2"><a href='#top'>BACK TO TOP</a></div></center>
+</body>
+</html>

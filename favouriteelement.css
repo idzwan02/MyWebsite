@@ -1,0 +1,71 @@
+body
+{
+	background-image: url("9.jpg");
+	background-size: 100% 100%;
+}
+
+.link1
+{
+	background-color: lightblue;
+	width: 170px;
+	border: 15px solid #6080ff;
+	padding: 20px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+h
+{
+	font-size: 95px;
+	font-family: "Avanta Garde","Bahnschrift Light","Times New Roman";
+	color: #393fb3;
+}
+
+c
+{
+	font-size: 30px;
+	font-family: "Avanta Garde","Bahnschrift Light","Times New Roman";
+}
+
+h1
+{
+	font-size: 50px;
+	font-family: "Bahnschrift Light","Avanta Garde","Times New Roman";
+}
+
+h2
+{
+	font-size: 35px;
+	font-family: "Avanta Garde","Bahnschrift Light","Times New Roman";
+}
+
+y1
+{
+	margin-left: 245px;
+}
+
+y2
+{
+	margin-left: 285px;
+}
+
+t1
+{
+	font-size: 25px;
+	font-family: "Bahnschrift Light","Avanta Garde","Times New Roman";
+}
+
+t2
+{
+	font-size: 20px;
+	font-family: "Avanta Garde","Bahnschrift Light","Times New Roman";
+}
+
+.link2
+{
+	background-color: lightblue;
+	width: 150px;
+	border: 15px solid blue;
+	padding: 20px;
+	margin: 20px;
+}
